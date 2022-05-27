@@ -1,0 +1,22 @@
+.armas {
+    background-color: rgba(112, 77, 11, 0.85);
+    color: bisque;
+    font-family: 'Marcellus SC', serif;
+    border-style: double;
+    border-color: $variable1;
+}
+
+.armas--titulo {
+    font-family: 'Marcellus SC', serif;
+    color: $Variable2;
+}
+
+.armor{
+    background-color: black;
+    border-color: black;
+}
+
+.armor--titulo {
+    font-family: 'Marcellus SC', serif; ;
+    color: $Variable2;
+}

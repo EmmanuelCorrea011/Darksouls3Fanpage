@@ -1,0 +1,30 @@
+.animacion {
+    scroll-behavior: auto;
+    animation-name: Letras;
+    animation-duration: 3s;
+}
+
+.animacion2 {
+    scroll-behavior: auto;
+    animation-name: Letras2;
+    animation-duration: 3s;
+}
+
+@keyframes Letras {
+    0%{
+        transform: translateX(300px)  ;
+    }
+
+    100% {
+        transform: translateX(0px)  ;
+    }
+}
+@keyframes Letras2 {
+    0%{
+        transform: translateX(-300px)  ;
+    }
+
+    100% {
+        transform: translateX(0px)  ;
+    }
+}
