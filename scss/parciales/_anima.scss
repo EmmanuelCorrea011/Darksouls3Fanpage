@@ -1,13 +1,66 @@
 .animacion {
     scroll-behavior: auto;
     animation-name: Letras;
-    animation-duration: 3s;
+    animation-duration: 10s;
 }
 
 .animacion2 {
     scroll-behavior: auto;
     animation-name: Letras2;
+    animation-duration: 10s;
+}
+
+.animacion3 {
+    scroll-behavior: auto;
+    animation-name: Hr;
+    animation-duration: 10s;
+    font-size: 1vh;
+    font-size: 10vmax;
+    
+}
+
+.animacion4 {
+    scroll-behavior: auto;
+    animation-name: Letras3;
+    animation-duration: 10s;
+}
+
+
+.animacion6 {
+    animation-duration: 10s;
+    animation-name: titulo;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titulo {
+    0%{
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+
+
+.animacion5 {
     animation-duration: 3s;
+    animation-name: todo;
+}
+
+@keyframes todo {
+    0%{
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes Letras {
@@ -28,3 +81,25 @@
         transform: translateX(0px)  ;
     }
 }
+
+@keyframes Letras3 {
+    0%{
+        transform: translateY(-300px)  ;
+        
+    }
+
+    100% {
+        transform: translateX(0px)  ;
+    }
+}
+
+@keyframes Hr {
+    0%{
+        transform: scale(0.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
